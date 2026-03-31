@@ -2,7 +2,7 @@
   "description": "Configurable limit of tabs that can be opened",
   "homepage_url": "https://github.com/Cook-I-T/max-tabs-limit",
   "manifest_version": 2,
-  "name": "MaxTabsLimit",
+  "name": "MaxTabsLimit-XT",
   "permissions": [
     "tabs",
     "notifications",

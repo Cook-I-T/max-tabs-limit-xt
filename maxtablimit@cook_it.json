@@ -1,13 +1,13 @@
 {
   "name": "maxtablimit@cook_it",
-  "description": "Config explanation:
+  "description": "Config explanation (remove this to fix the json):
   data: {
     locked: true,                                               //If true it locks the settings and overwrites any preexisting config.
     maxTabs: 8,                                                 //Amount of allowed tabs, regardless of window count
     badgeFormat: remainingTabs,                                 //One of 'openTabs', 'remainingTabs', 'openTabsMax' or 'remainingTabsMax', see settings page for details
     errorTitle: Error!,                                         //Title of notification
     errorContent: Too many Tabs! Maximum of {maxTabs} allowed!, //Content of notification
-    lockText: <b>Locked by admin!</b>                                  //Text displayed in the settings when they are locked. This is set with .innerHTML so styling is possible
+    lockText: <b>Locked by admin!</b>                           //Text displayed in the settings when they are locked. This is set with .innerHTML so styling is possible
   }",
   "type": "storage",
   "data": {
@@ -15,7 +15,7 @@
     "maxTabs": 5,
     "badgeFormat": "openTabsMax",
     "errorTitle": "Maximale Anzahl an Tabs erreicht!",
-    "errorContent": "Durch Leistungsprobleme sind eine maximale Anzahl an {maxTabs} erlaubt!",
+    "errorContent": "Durch Hardwarelimitationen sind eine maximale Anzahl an {maxTabs} erlaubt!",
     "lockText": "<b>Einstellungen sind gesperrt!</b>"
   }
 }
