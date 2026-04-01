@@ -28,7 +28,7 @@
       "data_collection_permissions": {
         "required": ["none"]
       },
-      "strict_min_version": "115.*"
+      "strict_min_version": "115.0"
     }
   },
   "options_ui": {
